@@ -1,0 +1,19 @@
+{
+  "name": "bun-version",
+  "module": "index.js",
+  "type": "module",
+  "scripts": {
+    "main": "bun run --env-file=.env index.js postgres admin2255",
+    "runner": "bun run --env-file=.env myrunner.js postgres admin2255"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "5.6.2"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10",
+    "rxjs": "^7.8.1"
+  }
+}
