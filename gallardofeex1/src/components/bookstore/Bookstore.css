@@ -1,0 +1,64 @@
+body {
+    background-color: #1b1b1e;
+    color: #d4d4dc;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #b1acdd;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+form {
+    background-color: #2b2d42;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 400px;
+    margin: 0 auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+form input[type="text"],
+form input[type="number"] {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #4e5166;
+    border-radius: 4px;
+    background-color: #3c3f52;
+    color: #d4d4dc;
+}
+
+form input[type="submit"] {
+    background-color: #494d6e;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form input[type="submit"]:hover {
+    background-color: #b4d7ff;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    text-align: left;
+    color: #d4d4dc;
+}
+
+table th,
+table td {
+    padding: 10px;
+    border: 1px solid #4e5166;
+}
+
+table th {
+    background-color: #1e1e2e;
+    color: #ffffff;
+}

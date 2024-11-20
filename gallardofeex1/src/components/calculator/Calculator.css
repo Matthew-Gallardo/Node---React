@@ -1,0 +1,36 @@
+body {
+    background-color: #1e1e2e;
+    color: #d4d4dc;
+    font-family: Arial, sans-serif;
+}
+
+div {
+    margin: 10px 0;
+    text-align: center;
+}
+
+input[type="number"] {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #4e5166;
+    border-radius: 4px;
+    background-color: #3c3f52;
+    color: #d4d4dc;
+}
+
+select {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #4e5166;
+    border-radius: 4px;
+    background-color: #3c3f52;
+    color: #d4d4dc;
+}
+
+
+
+h3 {
+    color: #e03b3b;
+}
